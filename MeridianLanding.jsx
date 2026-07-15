@@ -24,7 +24,7 @@ function useCountUp(target, duration = 1400, startOnMount = true) {
 // ---- Razorpay integration ----
 // Replace with your live/test Key ID from the Razorpay Dashboard (Settings > API Keys).
 // Only the public Key ID goes here — never put your Key Secret in frontend code.
-const RAZORPAY_KEY_ID = "rzp_test_XXXXXXXXXXXX";
+const RAZORPAY_KEY_ID = "rzp_test_TBsGsTA1R0WaXI";
 
 function useRazorpay() {
   const [ready, setReady] = useState(false);
